@@ -1,0 +1,224 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Poppins&display=swap');
+
+
+/* Default Css  */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+   
+   
+}
+
+body {
+    font-family: 'Gowun Dodum', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+p,
+ul,
+li,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+/* Header start here.. */
+
+header {
+    background: #264653;
+    height: auto;
+}
+
+/* Hero Bar */
+
+.hero-bar{
+    
+}
+.hero-bar .part-1{
+    position: relative;
+}
+.hero-bar .part-1 > h2{
+   
+}
+.hero-bar .part-1 p::after{
+    position: absolute;
+    content: '';
+    background: red;
+    width: 142px;
+    height: 3px;
+    bottom: -4px;
+    left: auto;
+    right: 451px;
+}
+.hero-bar .part-2 .gray{
+    filter: grayscale(100%);
+}
+
+
+
+/* latest News */
+
+.news{
+    
+}
+.news{
+
+}
+
+
+
+/*  Clients says */
+.client-says{
+    
+}
+.client-says .fas{
+    padding: 15px 0;
+color: orange;
+}
+
+
+/*  Frequently Asked Questions */
+.question{
+    
+}
+.question button{
+    text-decoration: none !important;
+}
+
+/* Slider */
+.slide{
+    background: #264653;
+    padding: 100px 0;
+}
+.slide .body{
+    width: 100%;
+    height: 200px;
+}
+
+/* contact */
+.contact textarea{
+width: 100%;
+}
+
+/* Footer */
+footer{
+    background: #0B0D17;
+}
+footer a,
+footer p{
+    color: #ddd;
+    font-size: 16px;
+    margin-right: 10px;
+    text-decoration: none !important;
+}
+footer a:hover{
+    color: orange;
+    
+}
+
+
+/* Media Query */
+
+@media only screen and (max-width:575px){
+    header h1 {
+        font-size: 37px !important;
+        margin: 10px 0;
+    }
+    header  .right-side {
+        margin-top: 34px;
+    }
+    .modal-content {
+        width: 100%;
+        
+    }
+    .col.text-center.m-5 {
+        margin: 30px 0 !important;
+    }
+    .hero-bar h2 {
+        font-size: 37px;
+    }
+    .hero-bar .part-1 p::after {
+       
+        right: 114px;
+    }
+    .hero-bar img{
+        padding-bottom: 40px;
+    }
+    .client-says .m-5 {
+        margin: 20px 0 !important;
+    }
+    .client-says h2 {
+        font-size: 47px;
+    }
+    .card.text-center {
+        margin-bottom: 56px;
+    }
+    .question {
+        margin: 0 !important;
+    }
+    .question .container {
+        margin: 0 !important;
+    }
+    .question .row  {
+        margin: 0 !important;
+    }
+    .question .row h2 {
+        margin: 0 !important;
+        font-size: 35px;
+        padding-bottom: 60px;
+    }
+    .question .row img {
+        margin-bottom: 37px;
+    }
+    #accordion {
+        padding-bottom: 55px !important;
+    }
+    .slide {
+        
+        padding:  0;
+    }
+    .slide .body {
+        width: 100%;
+        height: 286px;
+    }
+    .slide p {
+        font-size: 14px;
+    }
+    .contact{
+        margin: 0 !important;
+    }
+    .contact img.img-fluid {
+        margin-top: 53px;
+    }
+
+    .justify-content-end {
+        -webkit-box-pack: center!important;
+        -ms-flex-pack: center!important;
+        justify-content: start!important;
+        margin-top: 10px;
+    }
+   
+   footer .float-right {
+        float: none!important;
+        text-align: center;
+    }
+    
+}
